@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%; /*set to 100% to make sure whole screen is filled up */
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*the background lines are from csstricks full background image to ensure our image uses the full background and is responsive as well. Add url of image after"url". no-repeat makes sure image doesnt repeat, centers it, and fixes it. That line fills the page background-size also makes sure that it covers the whole background*/
+}
+
+h1{
+	font-size: 3rem;
+	color: #e2dbdb; /*color can be grabbed using developer tools on chrome */
+}
+
+hr{
+	border-color: #f05f44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #f05f44;
+	border-color: #f05f44;
+}
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+
+.large-button{ /*class only exists to make button biger */
+	padding: 1rem 2rem;
+}

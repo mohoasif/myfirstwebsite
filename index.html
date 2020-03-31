@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Required meta tags -->
+     <meta charset="utf-8"> <!-- used for displaying text -->
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- this is so it develops for mobile sites as well and does it FIRST. Read up on metatags. REQUIRED AND USEFUL -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100"> <!-- We are divinding the body into ac ontainer and then a row. Then we are dividing each element. D-flex is bootstraps flexbox stuff The h-100 is to make the container span across the entire page. Before we aded height, it was centered in it's alotted space but since we want the text in the middle of the whole page, we must make the container span the whole length of the page. -->
+      <div class="row">
+        <header class="text-center col-12"> <!-- you add col 12 to make sure its at the center of the 12 column grid of the whole web page. If not itll align to the center of the div class they are in such as "container" -->
+          <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year </strong></h1>
+        </header>
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12">
+          <hr><!-- adding hor  izantal line -->
+          <a href = https://mailchi.mp/1e77392226c3/mysurvey><button class="btn btn-primary large-button"> Find out more </button> </a>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+    <!-- the h1 class is built into bootstrap. whole purpose of bootstrap is to use built in classes to up your website.
+      You can add more than one class and just list them next to each other. btn is a class, btn-primary is, large-buton is-->
